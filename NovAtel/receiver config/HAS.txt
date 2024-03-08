@@ -1,0 +1,48 @@
+log loglist
+unlogall
+assignall gps idle
+assignall sbas idle
+assignall glonass idle
+assignall galileo auto
+assignall qzss idle
+assignall beidou idle
+assignall navic idle
+tracksignal qzssl2c disable
+tracksignal qzssl5 disable
+tracksignal qzssl1c disable
+tracksignal qzssl6 disable
+tracksignal sbasl5 disable
+tracksignal glol2p disable
+tracksignal glol2c disable
+tracksignal glol3 disable
+tracksignal gpsl2p disable
+tracksignal gpsl2c disable
+tracksignal gpsl5 disable
+tracksignal gpsl1c disable
+tracksignal gale5a disable
+tracksignal gale5b disable
+tracksignal galaltboc disable
+tracksignal gale6 enable
+tracksignal beidoub1c disable
+tracksignal beidoub2 disable
+tracksignal beidoub3 disable
+tracksignal beidoub2b disable
+tracksv beidou 1 never
+tracksv beidou 2 never
+tracksv beidou 3 never
+tracksv beidou 4 never
+tracksv beidou 5 never
+tracksv beidou 6 never
+tracksv beidou 7 never
+tracksv beidou 8 never
+tracksv beidou 9 never
+tracksv beidou 10 never
+tracksv beidou 11 never
+tracksv beidou 12 never
+tracksv beidou 13 never
+tracksv beidou 14 never
+tracksv beidou 16 never
+tracksv beidou 17 never
+tracksv beidou 18 never
+log galcnavrawpage onnew
+saveconfig

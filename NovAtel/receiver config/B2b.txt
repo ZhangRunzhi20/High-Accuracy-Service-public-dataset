@@ -1,0 +1,53 @@
+log loglist
+unlogall
+assignall gps auto
+assignall sbas idle
+assignall glonass idle
+assignall galileo idle
+assignall qzss idle
+assignall beidou auto
+assignall navic idle
+tracksignal qzssl2c disable
+tracksignal qzssl5 disable
+tracksignal qzssl1c disable
+tracksignal qzssl6 disable
+tracksignal sbasl5 disable
+tracksignal glol2p disable
+tracksignal glol2c enable
+tracksignal glol3 disable
+tracksignal gpsl2p enable
+tracksignal gpsl2c disable
+tracksignal gpsl5 disable
+tracksignal gpsl1c enable
+tracksignal gale5a disable
+tracksignal gale5b disable
+tracksignal galaltboc disable
+tracksignal gale6 disable
+tracksignal beidoub1c enable
+tracksignal beidoub2 disable
+tracksignal beidoub3 enable
+tracksignal beidoub2b enable
+tracksv beidou 1 never
+tracksv beidou 2 never
+tracksv beidou 3 never
+tracksv beidou 4 never
+tracksv beidou 5 never
+tracksv beidou 6 never
+tracksv beidou 7 never
+tracksv beidou 8 never
+tracksv beidou 9 never
+tracksv beidou 10 never
+tracksv beidou 11 never
+tracksv beidou 12 never
+tracksv beidou 13 never
+tracksv beidou 14 never
+tracksv beidou 16 never
+tracksv beidou 17 never
+tracksv beidou 18 never
+MOVINGBASESTATION ENABLE
+log rtcm1074b ontime 5
+log rtcm1124b ontime 5
+log gpsephemb ontime  5
+log bdsbcnav1ephemerisb ontime 5
+log bdsbcnav3rawmessageb onnew
+saveconfig
