@@ -1,0 +1,5 @@
+unlogall
+log hasmess ontime 1
+log gpsephemb ontime 3
+log galephemerisb ontime 3
+saveconfig
